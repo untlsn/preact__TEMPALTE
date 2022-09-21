@@ -1,6 +1,5 @@
 import preactLogo from './assets/preact.svg'
 import './app.css'
-import { useSignal } from '@preact/signals';
 
 export function App() {
   const count = useSignal(0);

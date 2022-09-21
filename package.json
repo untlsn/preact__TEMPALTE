@@ -10,7 +10,10 @@
   },
   "dependencies": {
     "@preact/signals": "^1.1.0",
-    "preact": "^10.10.6"
+    "@types/node": "^18.7.18",
+    "preact": "^10.10.6",
+    "unocss": "^0.45.22",
+    "unplugin-auto-import": "^0.11.2"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.3.0",
