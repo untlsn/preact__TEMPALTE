@@ -2,6 +2,7 @@
 export {}
 declare global {
   const batch: typeof import('@preact/signals')['batch']
+  const clsx: typeof import('clsx')['default']
   const computed: typeof import('@preact/signals')['computed']
   const effect: typeof import('@preact/signals')['effect']
   const signal: typeof import('@preact/signals')['signal']

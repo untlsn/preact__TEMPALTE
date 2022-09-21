@@ -27,7 +27,8 @@ export default defineConfig({
         {
           '@preact/signals': [
             'useSignal', 'signal', 'useSignalEffect', 'effect', 'computed', 'useComputed', 'batch'
-          ]
+          ],
+          clsx: [['default', 'clsx']],
         }
       ],
     }),

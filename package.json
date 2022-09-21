@@ -10,14 +10,18 @@
   },
   "dependencies": {
     "@preact/signals": "^1.1.0",
-    "@types/node": "^18.7.18",
-    "preact": "^10.10.6",
-    "unocss": "^0.45.22",
-    "unplugin-auto-import": "^0.11.2"
+    "clsx": "^1.2.1",
+    "preact": "^10.10.6"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.3.0",
+    "@types/node": "^18.7.18",
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8",
     "typescript": "^4.6.4",
+    "unocss": "^0.45.22",
+    "unplugin-auto-import": "^0.11.2",
     "vite": "^3.1.0"
   }
 }
