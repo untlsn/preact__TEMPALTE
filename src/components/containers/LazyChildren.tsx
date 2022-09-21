@@ -16,11 +16,6 @@ function LazyChildren(props: LazyChildrenProps) {
   }, [props.children])
   const isSame = children == props.children;
 
-  console.log({
-    children,
-    fromProps: props.children
-  });
-
   return (
     <span
       class={clsx('transition-opacity', isSame ? 'opacity-100' : 'opacity-0')}
